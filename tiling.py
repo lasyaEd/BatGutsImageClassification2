@@ -71,7 +71,7 @@ def tile_numpy_image(image_array, output_folder, image_name, tile_size=(512, 512
 
 
 # Example Usage:
-tiff_image_path = "/Users/lasyaedunuri/Documents/InternshipYo/BatGutsImageClassification2/T2023-26L_Anoura_geoffroyi_LY24-1-7_nectar/T2023-26L_Anoura_geoffroyi_LY24-1-7B_nectar_proximal_AB-PAS/T2023-26L_Anoura_geoffroyi_LY24-1-7B_nectar_proximal_AB-PAS_LY24-1-7B AB-PAS 1-1.tif"
+tiff_image_path = "/Users/lasyaedunuri/Documents/InternshipYo/BatGutsImageClassification2/output/T2023-26L_Anoura_geoffroyi_LY24-1-7A_nectar_stomach_AB_LY24-1-7A AB 1-2_near_perfect.tif"
 output_folder = "tiled_images"
 image_name = os.path.splitext(os.path.basename(tiff_image_path))[0]  # Extract filename without extension
 
