@@ -31,10 +31,10 @@ def inpaint_darkest_region_preserving_tissue(image, inpaint_method=cv2.INPAINT_N
     return inpainted, mask
 
 # Define input folder containing TIFF images
-input_folder = "/Users/lasyaedunuri/Documents/InternshipYo/BatGutsImageClassification2"
+input_folder = "/Users/lasyaedunuri/Documents/InternshipYo/BatGutsImageClassification2/images/insect"
 
 # Define output folder for inpainted images
-output_folder = "/Users/lasyaedunuri/Documents/InternshipYo/Inpainted_Images"
+output_folder = "/Users/lasyaedunuri/Documents/InternshipYo/Inpainted_Images/insect"
 os.makedirs(output_folder, exist_ok=True)  # Create the folder if it doesn’t exist
 
 # Loop through all TIFF files in the directory and process them
