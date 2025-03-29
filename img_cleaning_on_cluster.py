@@ -2,7 +2,6 @@ import os
 import numpy as np
 import cv2
 import tifffile as tiff
-import matplotlib.pyplot as plt
 
 def inpaint_darkest_region_preserving_tissue(image, inpaint_method=cv2.INPAINT_NS):
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
